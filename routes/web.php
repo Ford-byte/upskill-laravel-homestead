@@ -8,6 +8,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('/user', [UserController::class, 'getUser']);
 
-Route::get('/user/{email}', [UserController::class, 'getUser']);
+// Route::post('/login', [UserController::class, 'login']);
